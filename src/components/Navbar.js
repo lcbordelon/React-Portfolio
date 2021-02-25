@@ -1,19 +1,14 @@
 import React from "react";
-import { Box, Typography, Button, IconButton } from "@material-ui/core";
-import MenuIcon from "@material-ui/icons/Menu";
+import { Box, Typography, Button } from "@material-ui/core";
+
 
 function Navbar() {
   return (
-    <Box display="flex" bgcolor="grey.200" p={2} alignItems="center">
+    <Box display="flex" bgcolor="grey.200" p={2}>
       <Typography>React-bootstrap</Typography>
       <Box>
         <Button color="primary">Link</Button>
         <Button color="primary">Link</Button>
-      </Box>
-      <Box flexGrow={1} textAlign="right">
-        <IconButton>
-          <MenuIcon />
-        </IconButton>
       </Box>
     </Box>
   );
