@@ -1,33 +1,18 @@
 import React from "react";
+import SimpleCard from "../components/Card/Card";
+import "../components/imgs/LB.PNG";
 
-function Home() {
+function About() {
   return (
     <div className="container">
-      <div className="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>I'm a jumbotron!</p>
-        <p>
-          <button className="btn btn-primary btn-lg">Learn more</button>
-        </p>
-      </div>
-      <div className="card mb-4">
-        <div className="card-header">
-          <h3>Card title</h3>
-        </div>
-        <div className="card-body">
-          <p className="card-text">Card content</p>
-        </div>
-      </div>
-      <div className="card mb-4">
-        <div className="card-header">
-          <h3>Card title</h3>
-        </div>
-        <div className="card-body">
-          <p className="card-text">Card content</p>
-        </div>
-      </div>
+      <SimpleCard
+        title="Hello! I'm Lindsay!"
+        description="blah blah blah react"
+        image="../components/imgs/LB.PNG"
+        imagetitle="Lindsay Bordelon"
+      />
     </div>
   );
 }
 
-export default Home;
+export default About;
