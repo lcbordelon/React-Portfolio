@@ -62,12 +62,9 @@ export default function SimpleCard(props) {
               {props.description}
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
-              adjective
             </Typography>
             <Typography variant="body2" component="p">
-              well meaning and kindly.
-              <br />
-              {'"a benevolent smile"'}
+              {props.intro}
             </Typography>
           </CardContent>
           <CardActions>

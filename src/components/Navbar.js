@@ -7,6 +7,9 @@ function Navbar() {
       <Typography>React-bootstrap</Typography>
       <Box>
         <Button color="primary">
+          <a href="About">About</a>
+        </Button>
+        <Button color="primary">
           <a href="Portfolio">Portfolio</a>
         </Button>
         <Button color="primary">Link</Button>
