@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PortfolioCard from "../components/PortfolioCard/PortfolioCard";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
-import Projects from "../projects.json";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Paper from "@material-ui/core/Paper";
+// import Grid from "@material-ui/core/Grid";
+import Projects from "../projects";
 
 class Portfolio extends Component {
   state = {
