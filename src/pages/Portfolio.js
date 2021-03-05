@@ -25,19 +25,21 @@ class Portfolio extends Component {
     //     const classes = useStyles();
 
     return (
-      <div>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6}>
-            {this.state.Projects.map((project) => (
+      <div className="container">
+        <div className="row" style={{ width: "100%" }}>
+          {this.state.Projects.map((project) => (
+            <div className="col-md-6">
               <PortfolioCard
+                style={{ margin: "auto" }}
                 id={project.id}
+                key={project.id}
                 name={project.name}
                 image={project.image}
                 href={project.href}
               />
-            ))}
-          </Grid>
-        </Grid>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
