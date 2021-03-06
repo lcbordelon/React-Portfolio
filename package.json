@@ -2,7 +2,7 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lcbordelon.github.io/React-Portfolio",
+  "homepage": "https://lcbordelon.github.io/React-Portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
