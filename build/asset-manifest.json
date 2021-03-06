@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7a33bf6c.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.5d9f8d93.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5d9f8d93.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.229f418e.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.229f418e.js.map",
+    "static/js/2.70c3b40b.chunk.js": "/React-Portfolio/static/js/2.70c3b40b.chunk.js",
+    "static/js/2.70c3b40b.chunk.js.map": "/React-Portfolio/static/js/2.70c3b40b.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.7a33bf6c.chunk.css.map": "/React-Portfolio/static/css/main.7a33bf6c.chunk.css.map",
+    "static/js/2.70c3b40b.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.70c3b40b.chunk.js.LICENSE.txt",
+    "static/media/LB.310391bc.PNG": "/React-Portfolio/static/media/LB.310391bc.PNG",
+    "static/media/Lindsay.Bordelon.Resume.6ed60278.pdf": "/React-Portfolio/static/media/Lindsay.Bordelon.Resume.6ed60278.pdf",
+    "static/media/hw10.170bb921.png": "/React-Portfolio/static/media/hw10.170bb921.png",
+    "static/media/hw12.1f651fa2.png": "/React-Portfolio/static/media/hw12.1f651fa2.png",
+    "static/media/hw14.b31ce3ff.PNG": "/React-Portfolio/static/media/hw14.b31ce3ff.PNG",
+    "static/media/hw17.3ca1c38f.png": "/React-Portfolio/static/media/hw17.3ca1c38f.png",
+    "static/media/hw18.7c528fe2.png": "/React-Portfolio/static/media/hw18.7c528fe2.png",
+    "static/media/proj2.0dae5775.PNG": "/React-Portfolio/static/media/proj2.0dae5775.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.229f418e.js",
+    "static/js/2.70c3b40b.chunk.js",
+    "static/css/main.7a33bf6c.chunk.css",
+    "static/js/main.5d9f8d93.chunk.js"
+  ]
+}
