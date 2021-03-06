@@ -15,7 +15,7 @@ function Navbar() {
                     <Link to="/Portfolio">Portfolio</Link>
                 </Button>
                 <Button color="primary" target="_blank">
-                    <Link to={`/${PDF}`}>Resume</Link>
+                    <a href={`/${PDF}`}>Resume</a>
                 </Button>
             </Box>
         </Box>
