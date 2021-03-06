@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Button } from "@material-ui/core";
+import PDF from "./imgs/Lindsay.Bordelon.Resume.pdf";
 
 function Navbar() {
   return (
@@ -12,7 +13,9 @@ function Navbar() {
         <Button color="primary">
           <a href="Portfolio">Portfolio</a>
         </Button>
-        <Button color="primary">Link</Button>
+        <Button color="primary" target="_blank">
+          <a href={PDF}>Resume</a>
+        </Button>
       </Box>
     </Box>
   );
