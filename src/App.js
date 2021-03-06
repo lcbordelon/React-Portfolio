@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename={process.env.PUBLIC_URL}>
         <div
           style={{
             backgroundImage: `url("https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxMXxibzhqUUtUYUUwWXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")`,
