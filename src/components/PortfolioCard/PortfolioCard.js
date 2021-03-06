@@ -24,20 +24,13 @@ export default function PortfolioCard(props) {
 
   return (
     <Card className={classes.root} id={props.id}>
-      <CardMedia style={{ height: 250 }} 
-      component="img" 
-      image={props.image} />
+      <CardMedia style={{ height: 250 }} component="img" image={props.image} />
       <CardContent>
-        <Typography
-          gutterBottom
-          variant="h5"
-          component="h2"
-          name={props.name}
-        ></Typography>
+        <Typography variant="h5" component="h2" name={props.name}></Typography>
       </CardContent>
       <CardActions>
         <Button size="small" color="primary" href={props.href}>
-          See Project
+          {props.name}
         </Button>
       </CardActions>
     </Card>
