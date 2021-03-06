@@ -14,8 +14,10 @@ function Navbar() {
         <Button color="primary">
           <Link to="/Portfolio">Portfolio</Link>
         </Button>
-        <Button color="primary" target="_blank">
-          <a href={PDF}>Resume</a>
+        <Button color="primary">
+          <a target="_blank" href={PDF}>
+            Resume
+          </a>
         </Button>
       </Box>
     </Box>
