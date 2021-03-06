@@ -67,9 +67,6 @@ export default function SimpleCard(props) {
               {props.intro}
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">Learn More</Button>
-          </CardActions>
         </Card>
       </Grid>
     </Grid>

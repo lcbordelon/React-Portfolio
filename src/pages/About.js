@@ -10,7 +10,7 @@ function About() {
         description="Hello! I'm Lindsay!"
         image={myPicture}
         imagetitle="Lindsay Bordelon"
-        intro="Welcome to my portfolio! I'm a newbie programmer with a passion for learning more."
+        intro="Welcome to my portfolio! I'm a newbie programmer with a passion for learning more. My recent projects are linked on the 'Portfolio' page. My Resume is available via the 'Resume' link. Checkout my GitHub and LinkedIn via the Icons below."
       />
     </div>
   );
