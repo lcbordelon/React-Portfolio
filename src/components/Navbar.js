@@ -13,6 +13,9 @@ function Navbar() {
         <Button color="primary">
           <a href="Portfolio">Portfolio</a>
         </Button>
+        {/* <Button color="primary">
+          <a href="Contact Me">Contact Me</a>
+        </Button> */}
         <Button color="primary" target="_blank">
           <a href={PDF}>Resume</a>
         </Button>
