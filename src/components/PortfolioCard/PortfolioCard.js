@@ -23,7 +23,7 @@ export default function PortfolioCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} id={props.id}>
+    <Card className={classes.root} id={props.id} className="m-2">
       <CardMedia style={{ height: 250 }} component="img" image={props.image} />
       <CardContent>
         <Typography variant="h5" component="h2" name={props.name}></Typography>
@@ -31,6 +31,9 @@ export default function PortfolioCard(props) {
       <CardActions>
         <Button size="small" color="primary" href={props.href}>
           {props.name}
+        </Button>
+        <Button size="small" color="primary" href={props.hrefDepl}>
+          Deploy It!
         </Button>
       </CardActions>
     </Card>

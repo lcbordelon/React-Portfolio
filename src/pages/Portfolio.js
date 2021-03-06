@@ -36,6 +36,7 @@ class Portfolio extends Component {
                 name={project.name}
                 image={project.image}
                 href={project.href}
+                hrefDepl={Projects.hrefDepl}
               />
             </div>
           ))}

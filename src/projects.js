@@ -11,12 +11,14 @@ const Projects = [
     name: "Team Profile Generator",
     image: hwten,
     href: "https://github.com/lcbordelon/HW10-TeamProfileGenerator",
+    hrefDepl: "",
   },
   {
     id: 2,
     name: "Employee Management System",
     image: hwtwelve,
     href: "https://github.com/lcbordelon/HW12-EmployeeManagementSystem",
+    hrefDepl: "",
   },
   {
     id: 3,
@@ -24,24 +26,29 @@ const Projects = [
     image: hwfourteen,
     href:
       "https://github.com/lcbordelon/HW14_Reverse-Engineering-Authentication",
+    hrefDepl:
+      "https://drive.google.com/file/d/1g4Ff2dcWvhLrtRaaJQF-F_4OJdSZ_0xq/view",
   },
   {
     id: 4,
     name: "Fitness Tracker",
     image: hwseventeen,
     href: "https://github.com/lcbordelon/HW17_Fitness",
+    hrefDepl: "https://werkouttwerkout.herokuapp.com/",
   },
   {
     id: 5,
     name: "Budget Tracker",
     image: hweighteen,
     href: "https://github.com/lcbordelon/HW18_Budget",
+    hrefDepl: "https://budgetrackerr.herokuapp.com/",
   },
   {
     id: 6,
     name: "Santa's Helper",
     image: projtwo,
     href: "https://github.com/lcbordelon/Project2",
+    hrefDepl: "",
   },
 ];
 
